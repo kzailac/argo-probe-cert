@@ -30,5 +30,7 @@ rm -rf $RPM_BUILD_ROOT
 %{dir}/CertLifetime-probe
 
 %changelog
+* Mon Sep 5 2022 Katarina Zailac <kzailac@srce.hr> - 2.0.0-1%{?dist}
+- AO-651 Harmonize EGI probes
 * Thu Dec 15 2016 Emir Imamagic <eimamagi@srce.hr> - 1.0.0-1%{?dist}
 - Initial version
