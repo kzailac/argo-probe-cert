@@ -2,7 +2,7 @@
 
 Summary: ARGO probe for checking X509 certificate lifetime.
 Name: argo-probe-cert
-Version: 2.0.0
+Version: 2.0.1
 Release: 1%{?dist}
 License: ASL 2.0
 Group: Network/Monitoring
@@ -30,6 +30,8 @@ rm -rf $RPM_BUILD_ROOT
 %{dir}/CertLifetime-probe
 
 %changelog
+* Thu Apr 4 2024 Katarina Zailac <kzailac@srce.hr> - 2.0.1-1%{?dist}
+- AO-924 Create Rocky 9 rpm for argo-probe-cert
 * Mon Sep 5 2022 Katarina Zailac <kzailac@srce.hr> - 2.0.0-1%{?dist}
 - AO-651 Harmonize EGI probes
 * Thu Dec 15 2016 Emir Imamagic <eimamagi@srce.hr> - 1.0.0-1%{?dist}
